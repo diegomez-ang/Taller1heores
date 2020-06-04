@@ -1,0 +1,109 @@
+/* https://drive.google.com/open?id=1VW5sBnTJiZgCAUwQuIMZScrMHE9_6iJL
+ */
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing:0 ;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    background-image: url(../assets/img/header.jpg);
+    width: auto;
+    height: 500px;
+}
+.nav{
+    background-color:#ED1C24 ;
+    display: flex;
+    justify-content: center;
+    
+}
+.itemmenu{
+    list-style: none;
+
+}
+
+
+
+
+
+/* .header{
+    background-color: #ED1C24;
+    height: 50px;
+    box-shadow: 0px 2px 8px;
+        
+}
+.nav{
+    position:-webkit-sticky;
+    position: sticky;
+}
+.imgHeader{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    height: 400px;
+    width: 1920px;
+} 
+
+.contenedor{
+    position:relative;
+    display: inline-block;   
+}
+
+.textosuperior{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Reenie Beanie', cursive;
+   letter-spacing: 20px;
+    color: #ED1C24;
+
+   
+}
+.textoinferior{
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    font-size: 50px;
+    letter-spacing: 25px;
+    color:black;
+    font-family: 'Reenie Beanie', cursive;
+    
+   
+}
+
+.itemmenu{
+    padding-top: 15px;
+    list-style: none;
+    margin: 0 20px 0 0;
+    word-spacing: 50px;
+    float: left;  
+}
+
+.linkmenu{
+    text-decoration: none;
+    color: white;    
+    border-radius: 10px;
+    padding: 4px;
+    
+    
+}
+.linkmenu:hover{
+    color: black;
+    background-color:#fde74c;
+    transition: background-color 1s;
+}
+
+.biografia{
+    position: relative;
+    top: 400px;
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+ */
