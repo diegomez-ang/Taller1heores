@@ -11,29 +11,16 @@
     position: fixed;
     z-index: 1;    
 }
-
-
-.contenedor{
-    padding: 100px 0px 0px 0px;
-    background-image: url(../assets/img/header.jpg);
-    display: flex;    
-    flex-direction: column;
-    align-items: center;   
-    height: 400px; 
-    z-index: -1;   
-}
-
 .nav{   
     height: 50px; 
     display: flex;  
     justify-content: center;
     align-items: center; 
     background-color: white;
+    box-shadow: 0px 3px 5px #af2828;
     position: -webkit-sticky;
     position: sticky;
-    /* opacity:0.5; */    
 }
-
 
 .list_menu{
     padding: 100px;
@@ -41,7 +28,6 @@
     justify-content: flex-end;
     position: relative;
     margin-left: 60px;
-   
 }
 
 .linkmenu{
@@ -55,11 +41,19 @@
 }
 
 .itemmenu:hover{
-    color: #fde74c;
     padding-right:5px;
     border-right:2px solid #DC5C5D; 
     text-transform: uppercase;  
-   
+}
+
+.contenedor{
+    padding: 100px 0px 0px 0px;
+    background-image: url(../assets/img/header.jpg);
+    display: flex;    
+    flex-direction: column;
+    align-items: center;   
+    height: 400px; 
+    z-index: -1;   
 }
 .textosuperior{  
     padding: 50px 0px 0px 90px; 
@@ -74,14 +68,11 @@
     padding: 0px 0px 0px 100px;
     margin-top: -20px;
     position: relative;
-   /*  top: 180px;
-    left: 800px; */
     font-size: 50px;
     letter-spacing: 24px;
     color:black;
     font-family: 'Reenie Beanie', cursive;   
 }
-
 
 footer{
     width: auto;
@@ -92,69 +83,79 @@ footer{
 
 /* -----------------------main------------- */
 
-main{
+main{    
     display: flex;
-    width: 100%;
+    justify-content: center;
+    width: 80%;
 }
-/* prueba{
-    width: 200px;
-    height: 200px;
-    background-color: chartreuse;
-    z-index: 100px;
-} */
+
 .principal{
     background-color: white;
-    width: 100%;
+    width: auto;
     height: auto;
-    display: flex; 
-    justify-content: center;   
 }
 
 .intro{
-    background-color: blanchedalmond;
-    height: 3000px;
-    width: 80%;
-    /* justify-content: center; */
+    margin-top: 20px;
+    
 }
+
+.intro::first-letter{
+    color:#af2828;
+    float:left;
+    font-size:50px;
+    margin: 0 auto;
+}
+
+.primeros{   /* titulos */
+    color:#af2828;
+    font-size:20px;
+    margin-left: 10px;
+}
+
+.img{
+    display: block;
+    margin: auto;
+    width: 150px;   
+}
+
+.cafe{
+    display: block;
+    width: 400px;
+    margin:auto;
+
+}
+
+.grandes{
+    display:flex;
+    margin-left: 50px;
+}
+
+.tamaño{
+    width: 400px;
+    height: 233px;
+}
+
 .social_n{
     width: 100px;
     height: 300px;
-   /*  background-color: orange; */
-    /* display: flex; */
-    /* flex-direction: row;
-    justify-content: space-around; */
     position: -webkit-sticky;
     position: sticky;
     top:100px;    
 }
-
 .redes{
-    /* display: flex; */
     margin-right: 20px;
-    
 }
-
-/* social_h{
-    width: 50px;
-    height: 50px;
-    background-color: orange;
-    display: flex;
-} */
-
-
-
+.centrado{
+    margin-left: 200px;
+    width: 60%;
+    text-align: center;
+}
 
 
 
 /* --------------------- FOOTER ----------------------- */
-/* .redes{
-    padding:20px;
-    display:flex;
-    justify-content: center;
-    background-color: red;
-    
-   
-} */
+
 .fab{
     font-size: 50px;
     color:#af2828;
@@ -181,18 +182,10 @@ main{
 .items-w :hover{
     color: #000000;
 }
-.social{
-    /* padding:20px;
-    display:flex;
-    justify-content: center; */
-}
-
-
 
 .items-f, .items, .items-t, .items-i, .items-w{
     display: flex;
     justify-content: center;
-    /* background-color: black; */
 
 }
 .copyright{

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    background-color: white;
+    position: fixed; /* necesario para que el sticky funcione */
+    width: 100%;
+    z-index: 1;
+}
+.nav{   
+    height: 50px; 
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    background-color: white;
+    box-shadow: 0px 3px 5px #af2828;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.list_menu{
+    width: 480px;    
+    display: flex;
+    justify-content: space-around;
+}
+.linkmenu{
+    text-decoration:none;
+    color: black;
+    
+}
+.itemmenu{
+    list-style:none;    
+}
+.itemmenu:hover{
+    padding-right:5px;
+    border-right:2px solid #DC5C5D; 
+    text-transform: uppercase;  
+}
+.contenedor{
+    background-image: url(../assets/img/header.jpg);
+    display: flex;    
+    flex-direction: column;
+    align-items: center;   
+    height: 400px; 
+    z-index: -1;   
+}
+.textosuperior{  
+    padding: 150px 0px 0px 90px; 
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Reenie Beanie', cursive;
+    letter-spacing: 20px;
+    color: white;      
+}
+
+.textoinferior{
+    padding: 0px 0px 0px 100px;
+    margin-top: -20px;
+    position: relative;
+    font-size: 50px;
+    letter-spacing: 24px;
+    color:black;
+    font-family: 'Reenie Beanie', cursive;   
+}
+
+/* --------------------- MAIN ----------------- */
+main{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    color: red;
+    background-color:white;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+aside{
+    color: black;
+    background-color: violet;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 420px;
+}
+.intro{
+    width: 60%;
+    background-color: blueviolet;
+}
+.importante{
+    width: 30%;
+    background-color: yellowgreen;
+}
+h1{
+    color: black;
+}
+li{
+    list-style: none;
+}
+table, td{
+    border: solid;
+}
