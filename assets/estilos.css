@@ -74,12 +74,7 @@
     font-family: 'Reenie Beanie', cursive;   
 }
 
-footer{
-    width: auto;
-    height: 160px;
-    background-color: #E07A5F;
-    bottom: 0;
-}
+
 
 /* -----------------------main------------- */
 
@@ -91,7 +86,7 @@ main{
 
 .principal{
     background-color: white;
-    width: auto;
+    width: 80%;
     height: auto;
 }
 
@@ -121,7 +116,7 @@ main{
 
 .cafe{
     display: block;
-    width: 400px;
+    width: 80%;
     margin:auto;
 
 }
@@ -132,7 +127,8 @@ main{
 }
 
 .tamaño{
-    width: 400px;
+    display: block;
+    width: 80%px;
     height: 233px;
 }
 
@@ -147,7 +143,7 @@ main{
     margin-right: 20px;
 }
 .centrado{
-    margin-left: 200px;
+    /* margin-left: 200px; */
     width: 60%;
     text-align: center;
 }
@@ -156,6 +152,13 @@ main{
 
 /* --------------------- FOOTER ----------------------- */
 
+footer{
+    width: auto;
+    height: 160px;
+    background-color: #E07A5F;
+    bottom: 0;
+    text-align: center;
+}
 .fab{
     font-size: 50px;
     color:#af2828;
@@ -163,6 +166,18 @@ main{
     font-size: 30px;
     text-align:center;
     vertical-align:middle ;
+}
+.contacto{
+    list-style: none;
+}
+
+.email{
+    margin-top: 100px;
+    text-decoration:none;
+    color:#031C42 ;
+}
+.copyright{
+    margin-top: 15px;
 }
 
 .items-f :hover{
@@ -204,3 +219,7 @@ h2{
 .github{
     text-decoration: none;
 }
+
+/* -------------------------Media Queries */
+
+
